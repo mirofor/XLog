@@ -1,4 +1,4 @@
-package com.mi.xlog;
+package com.mi.utils;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;

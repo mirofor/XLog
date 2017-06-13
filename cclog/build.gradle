@@ -17,13 +17,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
 }
 publish {
     userOrg = 'brightmi'      //bintray注册的用户名
-    groupId = 'com.mi'         //compile引用时的第1部分groupId
+    groupId = 'com.mi.utils'         //compile引用时的第1部分groupId
     artifactId = 'cclog'     //compile引用时的第2部分项目名
     publishVersion = '1.0.1'    //compile引用时的第3部分版本号
-    desc = 'This is a simple log util'
+    desc = 'This is a simple log util。'
     website = 'https://github.com/Android-MI/XLog'
 }
 

@@ -1,1 +1,1 @@
-include ':app', ':cclog'
+include ':app', ':CCLog'

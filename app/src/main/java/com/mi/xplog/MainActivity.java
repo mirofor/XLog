@@ -3,7 +3,7 @@ package com.mi.xplog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.mi.xlog.CCLog;
+import com.mi.utils.CCLog;
 
 public class MainActivity extends AppCompatActivity {
 
