@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
@@ -16,6 +17,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+publish {
+    userOrg = 'brightmi'      //bintray注册的用户名
+    groupId = 'com.mi'         //compile引用时的第1部分groupId
+    artifactId = 'cclog'     //compile引用时的第2部分项目名
+    publishVersion = '1.0.1'    //compile引用时的第3部分版本号
+    desc = 'This is a simple log util'
+    website = 'https://github.com/Android-MI/XLog'
 }
 
 dependencies {
