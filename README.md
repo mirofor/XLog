@@ -13,3 +13,11 @@
 ```gradle
 compile 'com.mi.utils:cclog:1.0.1'
 ```
+
+## 2. 设置是否输出信息
+
+#### 在项目的Application或入口处
+
+```
+CCLog.debug(true); //true:输出log信息 false:不输出log
+```
