@@ -21,3 +21,19 @@ compile 'com.mi.utils:cclog:1.0.1'
 ```
 CCLog.debug(true); //true:输出log信息 false:不输出log
 ```
+
+```
+CCLog.debug("defineTagName",true); //第一个参数：自定义tag名
+```
+
+## 3. 直接使用
+
+#### 常见Log打印级别信息
+
+```
+CCLog.d("message")
+CCLog.e("message")
+CCLog.i("message")
+...
+```
+```
